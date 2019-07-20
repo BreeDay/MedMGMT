@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
 import com.example.bdaymedmgmt.med_order.Common.Common;
 import com.example.bdaymedmgmt.med_order.Model.Request;

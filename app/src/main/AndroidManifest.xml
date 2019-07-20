@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning"
-        tools:replace="android:icon">
+        tools:replace="android:icon ">
 
         <!--Facebook sdk-->
         <!--<meta-data android:name="com.facebook.sdk.ApplicationId"-->
