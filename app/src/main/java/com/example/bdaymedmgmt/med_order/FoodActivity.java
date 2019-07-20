@@ -24,10 +24,10 @@ import com.example.salmangeforce.food_order.Interface.ItemClickListener;
 import com.example.salmangeforce.food_order.Model.Food;
 import com.example.salmangeforce.food_order.Model.Order;
 import com.example.salmangeforce.food_order.ViewHolders.FoodViewHolder;
-import com.facebook.CallbackManager;
-import com.facebook.share.model.SharePhoto;
-import com.facebook.share.model.SharePhotoContent;
-import com.facebook.share.widget.ShareDialog;
+//import com.facebook.CallbackManager;
+//import com.facebook.share.model.SharePhoto;
+//import com.facebook.share.model.SharePhotoContent;
+//import com.facebook.share.widget.ShareDialog;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DataSnapshot;
@@ -54,33 +54,33 @@ public class FoodActivity extends AppCompatActivity {
     String categoryId;
 
     Database database;
-    CallbackManager callbackManager;
-    ShareDialog shareDialog;
+//    CallbackManager callbackManager;
+//    ShareDialog shareDialog;
 
-    Target target = new Target() {
-        @Override
-        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
-            SharePhoto photo = new SharePhoto.Builder()
-                    .setBitmap(bitmap)
-                    .build();
-            if(ShareDialog.canShow(SharePhotoContent.class)) {
-                SharePhotoContent content = new SharePhotoContent.Builder()
-                        .addPhoto(photo)
-                        .build();
-                shareDialog.show(content);
-            }
-        }
+//    Target target = new Target() {
+//        @Override
+//        public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+//            SharePhoto photo = new SharePhoto.Builder()
+//                    .setBitmap(bitmap)
+//                    .build();
+//            if(ShareDialog.canShow(SharePhotoContent.class)) {
+//                SharePhotoContent content = new SharePhotoContent.Builder()
+//                        .addPhoto(photo)
+//                        .build();
+//                shareDialog.show(content);
+//            }
+//        }
 
-        @Override
-        public void onBitmapFailed(Exception e, Drawable errorDrawable) {
-
-        }
-
-        @Override
-        public void onPrepareLoad(Drawable placeHolderDrawable) {
-
-        }
-    };
+//        @Override
+//        public void onBitmapFailed(Exception e, Drawable errorDrawable) {
+//
+//        }
+//
+//        @Override
+//        public void onPrepareLoad(Drawable placeHolderDrawable) {
+//
+//        }
+//    };
 
     List<String> suggested;
     MaterialSearchBar materialSearchBar;
@@ -90,10 +90,10 @@ public class FoodActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_food);
 
-        //fb share
-        callbackManager = CallbackManager.Factory.create();
-        shareDialog = new ShareDialog(this);
-        swipeRefreshLayout = findViewById(R.id.refreshFood);
+//        //fb share
+//        callbackManager = CallbackManager.Factory.create();
+//        shareDialog = new ShareDialog(this);
+//        swipeRefreshLayout = findViewById(R.id.refreshFood);
 
         //init firebase
         firebaseDatabase = FirebaseDatabase.getInstance();
@@ -216,7 +216,7 @@ public class FoodActivity extends AppCompatActivity {
                 TextView textViewName = holder.itemView.findViewById(R.id.food_name);
                 ImageView imageView = holder.itemView.findViewById(R.id.food_image);
                 final ImageView imageViewFav = holder.itemView.findViewById(R.id.favorite);
-                final ImageView imageFbShare = holder.itemView.findViewById(R.id.fb_share);
+//                final ImageView imageFbShare = holder.itemView.findViewById(R.id.fb_share);
                 final ImageView imageViewCart = holder.itemView.findViewById(R.id.cart);
 
                 textViewName.setText(model.getName());
@@ -274,13 +274,13 @@ public class FoodActivity extends AppCompatActivity {
                 });
 
 
-                //fb_share_button_click_listener
-                imageFbShare.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Picasso.get().load(model.getImage()).into(target);
-                    }
-                });
+//                //fb_share_button_click_listener
+//                imageFbShare.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        Picasso.get().load(model.getImage()).into(target);
+//                    }
+//                });
             }
         };
 
@@ -325,7 +325,7 @@ public class FoodActivity extends AppCompatActivity {
             protected void onBindViewHolder(@NonNull FoodViewHolder holder, int position, @NonNull final Food model) {
                 TextView textViewName = holder.itemView.findViewById(R.id.food_name);
                 ImageView imageView = holder.itemView.findViewById(R.id.food_image);
-                final ImageView imageFbShare = holder.itemView.findViewById(R.id.fb_share);
+//                final ImageView imageFbShare = holder.itemView.findViewById(R.id.fb_share);
 
                 textViewName.setText(model.getName());
                 Picasso.get().load(model.getImage()).into(imageView);
@@ -341,13 +341,13 @@ public class FoodActivity extends AppCompatActivity {
                     }
                 });
 
-                //fb_share_button_click_listener
-                imageFbShare.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Picasso.get().load(model.getImage()).into(target);
-                    }
-                });
+//                //fb_share_button_click_listener
+//                imageFbShare.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View view) {
+//                        Picasso.get().load(model.getImage()).into(target);
+//                    }
+//                });
             }
         };
 
