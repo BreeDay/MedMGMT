@@ -1,16 +1,14 @@
-package com.example.salmangeforce.food_order.Server;
+package com.example.bdaymedmgmt.med_order.Server;
 
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.R;
+import com.example.bdaymedmgmt.med_order.R;
 
 public class MainActivityServer extends AppCompatActivity implements View.OnClickListener {
     Button btnSignIn;

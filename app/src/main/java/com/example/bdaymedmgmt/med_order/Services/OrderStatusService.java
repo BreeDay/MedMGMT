@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Services;
+package com.example.bdaymedmgmt.med_order.Services;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,10 +10,10 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.NotificationCompat;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Model.Request;
-import com.example.salmangeforce.food_order.OrderStatusActivity;
-import com.example.salmangeforce.food_order.R;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Model.Request;
+import com.example.bdaymedmgmt.med_order.OrderStatusActivity;
+import com.example.bdaymedmgmt.med_order.R;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;

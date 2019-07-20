@@ -1,11 +1,11 @@
-package com.example.salmangeforce.food_order.Common;
+package com.example.bdaymedmgmt.med_order.Common;
 
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.example.salmangeforce.food_order.Model.Request;
-import com.example.salmangeforce.food_order.Model.User;
+import com.example.bdaymedmgmt.med_order.Model.Request;
+import com.example.bdaymedmgmt.med_order.Model.User;
 
 public class Common {
     public static User currentUser;

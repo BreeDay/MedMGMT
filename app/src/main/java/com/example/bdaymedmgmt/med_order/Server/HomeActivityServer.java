@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Server;
+package com.example.bdaymedmgmt.med_order.Server;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -30,11 +30,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Interface.ItemClickListener;
-import com.example.salmangeforce.food_order.Model.Category;
-import com.example.salmangeforce.food_order.R;
-import com.example.salmangeforce.food_order.Server.ViewHolders.MenuViewHolderServer;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
+import com.example.bdaymedmgmt.med_order.Model.Category;
+import com.example.bdaymedmgmt.med_order.R;
+import com.example.bdaymedmgmt.med_order.Server.ViewHolders.MenuViewHolderServer;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -56,10 +56,10 @@ import java.util.UUID;
 import io.paperdb.Paper;
 
 import static android.widget.Toast.LENGTH_SHORT;
-import static com.example.salmangeforce.food_order.Common.Common.SERVER;
-import static com.example.salmangeforce.food_order.Common.Common.USER_NAME;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PASSWORD;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PHONE;
+import static com.example.bdaymedmgmt.med_order.Common.Common.SERVER;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_NAME;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PASSWORD;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PHONE;
 
 public class HomeActivityServer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

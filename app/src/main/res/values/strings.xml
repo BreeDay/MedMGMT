@@ -18,7 +18,7 @@
     <string name="sign_out">Sign Out</string>
     <string name="orders">Orders</string>
     <string name="cart">Cart</string>
-    <string name="my_name">Salman Yousaf</string>
+    <string name="my_name">Bree Day</string>
     <string name="menu">Menu</string>
     <string name="image">Image</string>
     <string name="place_order">Place Order</string>
@@ -40,6 +40,6 @@
     <string name="remember_me">Remember me</string>
     <string name="food_description">Food Description</string>
 
-    <string name="facebook_app_id">358682634886397</string>
-    <string name="facebook_login_protocol_name">fb358682634886397</string>
+    <!--<string name="facebook_app_id">358682634886397</string>-->
+    <!--<string name="facebook_login_protocol_name">fb358682634886397</string>-->
 </resources>

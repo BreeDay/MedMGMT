@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Server;
+package com.example.bdaymedmgmt.med_order.Server;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -26,11 +26,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Interface.ItemClickListener;
-import com.example.salmangeforce.food_order.Model.Food;
-import com.example.salmangeforce.food_order.R;
-import com.example.salmangeforce.food_order.Server.ViewHolders.FoodViewHolderServer;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
+import com.example.bdaymedmgmt.med_order.Model.Food;
+import com.example.bdaymedmgmt.med_order.R;
+import com.example.bdaymedmgmt.med_order.Server.ViewHolders.FoodViewHolderServer;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;

@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Server;
+package com.example.bdaymedmgmt.med_order.Server;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -20,8 +20,8 @@ import com.akexorcist.googledirection.GoogleDirection;
 import com.akexorcist.googledirection.constant.TransportMode;
 import com.akexorcist.googledirection.model.Direction;
 import com.akexorcist.googledirection.util.DirectionConverter;
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.R;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.R;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.common.api.GoogleApiClient;

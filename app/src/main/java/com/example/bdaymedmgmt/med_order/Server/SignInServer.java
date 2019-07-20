@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Server;
+package com.example.bdaymedmgmt.med_order.Server;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -10,11 +10,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.HomeActivity;
-import com.example.salmangeforce.food_order.Model.User;
-import com.example.salmangeforce.food_order.R;
-import com.example.salmangeforce.food_order.SignIn;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Model.User;
+import com.example.bdaymedmgmt.med_order.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -23,11 +21,10 @@ import com.google.firebase.database.ValueEventListener;
 
 import io.paperdb.Paper;
 
-import static com.example.salmangeforce.food_order.Common.Common.CLIENT;
-import static com.example.salmangeforce.food_order.Common.Common.SERVER;
-import static com.example.salmangeforce.food_order.Common.Common.USER_NAME;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PASSWORD;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PHONE;
+import static com.example.bdaymedmgmt.med_order.Common.Common.SERVER;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_NAME;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PASSWORD;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PHONE;
 
 public class SignInServer extends AppCompatActivity {
 

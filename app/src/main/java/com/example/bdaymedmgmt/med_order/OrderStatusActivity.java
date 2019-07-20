@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,10 +11,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Model.Request;
-import com.example.salmangeforce.food_order.Services.OrderStatusService;
-import com.example.salmangeforce.food_order.ViewHolders.OrderViewHolder;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Model.Request;
+import com.example.bdaymedmgmt.med_order.Services.OrderStatusService;
+import com.example.bdaymedmgmt.med_order.ViewHolders.OrderViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;

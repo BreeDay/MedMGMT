@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 //import com.facebook.FacebookSdk;
 
-import io.paperdb.Paper;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

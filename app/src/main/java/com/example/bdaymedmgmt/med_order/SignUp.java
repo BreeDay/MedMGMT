@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.app.ProgressDialog;
 import android.support.annotation.NonNull;
@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.Model.User;
+import com.example.bdaymedmgmt.med_order.Model.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

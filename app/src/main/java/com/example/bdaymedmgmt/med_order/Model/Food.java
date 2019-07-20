@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Model;
+package com.example.bdaymedmgmt.med_order.Model;
 
 public class Food {
     private String name;

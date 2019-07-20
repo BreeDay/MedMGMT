@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.salmangeforce.food_order">
+    package="com.example.bdaymedmgmt.med_order">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -25,24 +25,24 @@
         tools:replace="android:icon">
 
         <!--Facebook sdk-->
-        <meta-data android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id"/>
+        <!--<meta-data android:name="com.facebook.sdk.ApplicationId"-->
+            <!--android:value="@string/facebook_app_id"/>-->
 
-        <activity android:name=".MainActivity" />
-        <activity android:name=".SignIn" />
-        <activity android:name=".SignUp" />
+        <activity android:name="com.example.bdaymedmgmt.med_order.MainActivity" />
+        <activity android:name="com.example.bdaymedmgmt.med_order.SignIn" />
+        <activity android:name="com.example.bdaymedmgmt.med_order.SignUp" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.example.bdaymedmgmt.med_order.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme" />
-        <activity android:name=".FoodActivity" />
-        <activity android:name=".FoodDetailActivity" />
-        <activity android:name=".CartActivity" />
-        <activity android:name=".OrderStatusActivity" />
+        <!--<activity android:name=".FoodActivity" />-->
+        <activity android:name="com.example.bdaymedmgmt.med_order.FoodDetailActivity" />
+        <activity android:name="com.example.bdaymedmgmt.med_order.CartActivity" />
+        <activity android:name="com.example.bdaymedmgmt.med_order.OrderStatusActivity" />
         <activity
-            android:name=".Server.MainActivityServer"
+            android:name="com.example.bdaymedmgmt.med_order.Server.MainActivityServer"
             tools:ignore="InnerclassSeparator" />
-        <activity android:name=".ChooseActivity">
+        <activity android:name="com.example.bdaymedmgmt.med_order.ChooseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,7 +50,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Server.SignInServer"
+            android:name="com.example.bdaymedmgmt.med_order.Server.SignInServer"
             tools:ignore="InnerclassSeparator">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
@@ -59,25 +59,25 @@
             <!--</intent-filter>-->
         </activity>
         <activity
-            android:name=".Server.HomeActivityServer"
+            android:name="com.example.bdaymedmgmt.med_order.Server.HomeActivityServer"
             android:label="@string/title_activity_home_server"
             android:theme="@style/AppTheme"
             tools:ignore="InnerclassSeparator" />
         <activity
-            android:name=".Server.FoodActivityServer"
+            android:name="com.example.bdaymedmgmt.med_order.Server.FoodActivityServer"
             tools:ignore="InnerclassSeparator" />
         <activity
-            android:name=".Server.OrderStatusActivityServer"
+            android:name="com.example.bdaymedmgmt.med_order.Server.OrderStatusActivityServer"
             tools:ignore="InnerclassSeparator" />
 
         <service
-            android:name=".Services.OrderStatusService"
+            android:name="com.example.bdaymedmgmt.med_order.Services.OrderStatusService"
             android:enabled="true"
             android:exported="true"
             tools:ignore="ExportedService,InnerclassSeparator" />
 
         <service
-            android:name=".Server.Services.OrderListenService"
+            android:name="com.example.bdaymedmgmt.med_order.Server.Services.OrderListenService"
             android:enabled="true"
             android:exported="true"
             tools:ignore="ExportedService,InnerclassSeparator" />
@@ -94,7 +94,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Server.TrackingOrderActivity"
+            android:name="com.example.bdaymedmgmt.med_order.Server.TrackingOrderActivity"
             android:label="@string/title_activity_tracking_order"
             tools:ignore="InnerclassSeparator">
             <!--<intent-filter>-->
@@ -104,10 +104,10 @@
             <!--</intent-filter>-->
         </activity>
 
-        <provider android:authorities="com.facebook.app.FacebookContentProvider358682634886397"
-            android:name="com.facebook.FacebookContentProvider"
-            android:exported="true"
-            tools:ignore="ExportedContentProvider" />
+        <!--<provider android:authorities="com.facebook.app.FacebookContentProvider358682634886397"-->
+            <!--android:name="com.facebook.FacebookContentProvider"-->
+            <!--android:exported="true"-->
+            <!--tools:ignore="ExportedContentProvider" />-->
 
     </application>
 

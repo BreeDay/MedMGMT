@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,21 +16,21 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Model.User;
-import com.example.salmangeforce.food_order.Server.HomeActivityServer;
-import com.example.salmangeforce.food_order.Server.MainActivityServer;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Model.User;
+import com.example.bdaymedmgmt.med_order.Server.HomeActivityServer;
+import com.example.bdaymedmgmt.med_order.Server.MainActivityServer;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 import io.paperdb.Paper;
 
-import static com.example.salmangeforce.food_order.Common.Common.CLIENT;
-import static com.example.salmangeforce.food_order.Common.Common.SERVER;
-import static com.example.salmangeforce.food_order.Common.Common.USER_NAME;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PASSWORD;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PHONE;
+import static com.example.bdaymedmgmt.med_order.Common.Common.CLIENT;
+import static com.example.bdaymedmgmt.med_order.Common.Common.SERVER;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_NAME;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PASSWORD;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PHONE;
 
 public class ChooseActivity extends AppCompatActivity implements View.OnClickListener {
 

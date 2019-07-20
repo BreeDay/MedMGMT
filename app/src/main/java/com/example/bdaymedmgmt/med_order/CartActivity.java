@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -13,12 +13,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.Adapter.CartAdapter;
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Database.Database;
-import com.example.salmangeforce.food_order.Interface.ItemClickListener;
-import com.example.salmangeforce.food_order.Model.Order;
-import com.example.salmangeforce.food_order.Model.Request;
+import com.example.bdaymedmgmt.med_order.Adapter.CartAdapter;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Database.Database;
+import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
+import com.example.bdaymedmgmt.med_order.Model.Order;
+import com.example.bdaymedmgmt.med_order.Model.Request;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

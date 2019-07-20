@@ -1,9 +1,8 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.health.TimerStat;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -25,11 +24,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.andremion.counterfab.CounterFab;
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Database.Database;
-import com.example.salmangeforce.food_order.Interface.ItemClickListener;
-import com.example.salmangeforce.food_order.Model.Category;
-import com.example.salmangeforce.food_order.ViewHolders.MenuViewHolder;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Database.Database;
+import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
+import com.example.bdaymedmgmt.med_order.Model.Category;
+import com.example.bdaymedmgmt.med_order.ViewHolders.MenuViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
@@ -38,10 +37,10 @@ import com.squareup.picasso.Picasso;
 
 import io.paperdb.Paper;
 
-import static com.example.salmangeforce.food_order.Common.Common.CLIENT;
-import static com.example.salmangeforce.food_order.Common.Common.USER_NAME;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PASSWORD;
-import static com.example.salmangeforce.food_order.Common.Common.USER_PHONE;
+import static com.example.bdaymedmgmt.med_order.Common.Common.CLIENT;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_NAME;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PASSWORD;
+import static com.example.bdaymedmgmt.med_order.Common.Common.USER_PHONE;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

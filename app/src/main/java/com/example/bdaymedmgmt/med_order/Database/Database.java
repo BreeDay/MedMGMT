@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order.Database;
+package com.example.bdaymedmgmt.med_order.Database;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 
-import com.example.salmangeforce.food_order.Model.Order;
+import com.example.bdaymedmgmt.med_order.Model.Order;
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
 import java.util.ArrayList;

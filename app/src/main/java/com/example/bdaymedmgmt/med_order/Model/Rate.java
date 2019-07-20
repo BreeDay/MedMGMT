@@ -1,6 +1,4 @@
-package com.example.salmangeforce.food_order.Model;
-
-import java.util.List;
+package com.example.bdaymedmgmt.med_order.Model;
 
 public class Rate {
     private String phone;

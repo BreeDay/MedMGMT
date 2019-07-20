@@ -1,4 +1,4 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,11 +12,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Database.Database;
-import com.example.salmangeforce.food_order.Model.Food;
-import com.example.salmangeforce.food_order.Model.Order;
-import com.example.salmangeforce.food_order.Model.Rating;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Database.Database;
+import com.example.bdaymedmgmt.med_order.Model.Food;
+import com.example.bdaymedmgmt.med_order.Model.Order;
+import com.example.bdaymedmgmt.med_order.Model.Rating;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

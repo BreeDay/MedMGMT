@@ -1,9 +1,7 @@
-package com.example.salmangeforce.food_order;
+package com.example.bdaymedmgmt.med_order;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -19,11 +17,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.salmangeforce.food_order.Database.Database;
-import com.example.salmangeforce.food_order.Interface.ItemClickListener;
-import com.example.salmangeforce.food_order.Model.Food;
-import com.example.salmangeforce.food_order.Model.Order;
-import com.example.salmangeforce.food_order.ViewHolders.FoodViewHolder;
+import com.example.bdaymedmgmt.med_order.Database.Database;
+import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
+import com.example.bdaymedmgmt.med_order.Model.Food;
+import com.example.bdaymedmgmt.med_order.Model.Order;
+import com.example.bdaymedmgmt.med_order.ViewHolders.FoodViewHolder;
 //import com.facebook.CallbackManager;
 //import com.facebook.share.model.SharePhoto;
 //import com.facebook.share.model.SharePhotoContent;
@@ -38,7 +36,6 @@ import com.google.firebase.database.ValueEventListener;
 import com.mancj.materialsearchbar.MaterialSearchBar;
 import com.mancj.materialsearchbar.SimpleOnSearchActionListener;
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Target;
 
 import java.util.ArrayList;
 import java.util.List;

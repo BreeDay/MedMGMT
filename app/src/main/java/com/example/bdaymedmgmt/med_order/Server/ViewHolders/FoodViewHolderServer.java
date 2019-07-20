@@ -1,11 +1,11 @@
-package com.example.salmangeforce.food_order.Server.ViewHolders;
+package com.example.bdaymedmgmt.med_order.Server.ViewHolders;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.ContextMenu;
 import android.view.View;
 
-import com.example.salmangeforce.food_order.Common.Common;
-import com.example.salmangeforce.food_order.Interface.ItemClickListener;
+import com.example.bdaymedmgmt.med_order.Common.Common;
+import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
 
 public class FoodViewHolderServer extends RecyclerView.ViewHolder implements View.OnClickListener, View.OnCreateContextMenuListener {
 
