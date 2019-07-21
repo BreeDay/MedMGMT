@@ -1,9 +1,11 @@
 package com.example.bdaymedmgmt.med_order.ViewHolders;
 
-import androidx.appcompat.widget.RecyclerView;
+
 import android.view.View;
 
 import com.example.bdaymedmgmt.med_order.Interface.ItemClickListener;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class FoodViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 

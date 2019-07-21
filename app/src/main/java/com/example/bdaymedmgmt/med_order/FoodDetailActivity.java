@@ -1,9 +1,8 @@
 package com.example.bdaymedmgmt.med_order;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.FloatingActionButton;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
@@ -17,6 +16,8 @@ import com.example.bdaymedmgmt.med_order.Database.Database;
 import com.example.bdaymedmgmt.med_order.Model.Food;
 import com.example.bdaymedmgmt.med_order.Model.Order;
 import com.example.bdaymedmgmt.med_order.Model.Rating;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

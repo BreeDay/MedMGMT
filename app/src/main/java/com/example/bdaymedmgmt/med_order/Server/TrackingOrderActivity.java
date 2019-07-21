@@ -3,18 +3,19 @@ package com.example.bdaymedmgmt.med_order.Server;
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
-import androidx.core.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
+
 import android.util.Log;
 import android.widget.Toast;
-
 import com.akexorcist.googledirection.DirectionCallback;
 import com.akexorcist.googledirection.GoogleDirection;
 import com.akexorcist.googledirection.constant.TransportMode;

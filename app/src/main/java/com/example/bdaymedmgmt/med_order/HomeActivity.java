@@ -3,15 +3,11 @@ package com.example.bdaymedmgmt.med_order;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
-import android.support.design.widget.NavigationView;
+
+import androidx.annotation.NonNull;
 import androidx.core.view.GravityCompat;
-import androidx.core.widget.DrawerLayout;
-import androidx.core.widget.SwipeRefreshLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.GridLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
 import androidx.appcompat.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -31,10 +27,15 @@ import com.example.bdaymedmgmt.med_order.Model.Category;
 import com.example.bdaymedmgmt.med_order.ViewHolders.MenuViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.squareup.picasso.Picasso;
 
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import io.paperdb.Paper;
 
 import static com.example.bdaymedmgmt.med_order.Common.Common.CLIENT;

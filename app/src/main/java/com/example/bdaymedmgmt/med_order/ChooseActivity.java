@@ -7,7 +7,6 @@ import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.design.widget.Snackbar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.util.Base64;
 import android.util.Log;
@@ -20,6 +19,7 @@ import com.example.bdaymedmgmt.med_order.Common.Common;
 import com.example.bdaymedmgmt.med_order.Model.User;
 import com.example.bdaymedmgmt.med_order.Server.HomeActivityServer;
 import com.example.bdaymedmgmt.med_order.Server.MainActivityServer;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

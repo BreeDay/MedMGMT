@@ -1,52 +1,45 @@
 {
   "project_info": {
-    "project_number": "741062737006",
-    "firebase_url": "https://edmt-food-order.firebaseio.com",
-    "project_id": "edmt-food-order",
-    "storage_bucket": "edmt-food-order.appspot.com"
+    "project_number": "377959832207",
+    "firebase_url": "https://medmgmtapp.firebaseio.com",
+    "project_id": "medmgmtapp",
+    "storage_bucket": "medmgmtapp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:741062737006:android:ab16e554ee029e5c",
+        "mobilesdk_app_id": "1:377959832207:android:e0ef6e29f211aaab",
         "android_client_info": {
-          "package_name": "com.example.salmangeforce.food_order"
+          "package_name": "com.example.bdaymedmgmt.med_order"
         }
       },
       "oauth_client": [
         {
-          "client_id": "741062737006-2an2bmtc490qv3jubaac0heomusilgvq.apps.googleusercontent.com",
+          "client_id": "377959832207-t2od8rs0srukqsil2u180rk73lesmufj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.salmangeforce.food_order",
-            "certificate_hash": "cc0bf25a9d5f57d608a8668aa72809918e67e87d"
+            "package_name": "com.example.bdaymedmgmt.med_order",
+            "certificate_hash": "f7d37d20beb09b32a8f94f7862bdd962f896332a"
           }
         },
         {
-          "client_id": "741062737006-re5g1k02eaobbh6le15gjdbil34210u1.apps.googleusercontent.com",
+          "client_id": "377959832207-i90enh30a11jq60cb1fur5sj9hu37e53.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBhQjxhYdJdAm_O42ggSoFrM_ezA0ik9-c"
+          "current_key": "AIzaSyDFY3nQ49oVNcBLyZTw2KSBXMOuJDNwg3Q"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "741062737006-re5g1k02eaobbh6le15gjdbil34210u1.apps.googleusercontent.com",
+              "client_id": "377959832207-i90enh30a11jq60cb1fur5sj9hu37e53.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

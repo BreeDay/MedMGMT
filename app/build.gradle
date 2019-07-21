@@ -4,7 +4,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.example.salmangeforce.food_order"
+        applicationId "com.example.bdaymedmgmt.med_order"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 1
@@ -31,42 +31,48 @@ android {
         exclude 'META-INF/notice.txt'
         exclude 'META-INF/ASL2.0'
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
-    implementation 'androidx.appcompat:appcompat:1.0.0-beta01'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.2'
-    implementation 'com.google.android.material:material:1.0.0-beta01'
-    implementation 'com.google.android.gms:play-services-maps:16.0.0'
-    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    api 'androidx.appcompat:appcompat:1.1.0-rc01'
+    api 'androidx.constraintlayout:constraintlayout:1.1.3'
+    api 'com.google.android.material:material:1.1.0-alpha08'
+    api 'com.google.android.gms:play-services-maps:17.0.0'
+    api 'com.google.android.gms:play-services-location:17.0.0'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
-    implementation 'com.google.firebase:firebase-database:16.0.4'
+    api 'com.android.support:support-annotations:'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha02'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha02'
+    api 'com.google.firebase:firebase-database:18.0.0'
     implementation 'com.google.firebase:firebase-core:17.0.0'
-    implementation 'com.google.firebase:firebase-storage:16.0.4'
-    implementation 'com.google.firebase:firebase-auth:16.0.5'
-    implementation 'com.firebaseui:firebase-ui-database:4.2.1'
-    implementation 'androidx.arch.core:core-runtime:2.0.0-beta01'
-    implementation 'androidx.arch.core:core-common:2.0.0-beta01'
+    api 'com.google.firebase:firebase-storage:18.1.0'
+    api 'com.google.firebase:firebase-auth:18.1.0'
+    annotationProcessor 'androidx.annotation:annotation:1.1.0'
+    api 'com.firebaseui:firebase-ui-database:4.2.1'
+    api 'androidx.arch.core:core-runtime:2.1.0-rc01'
+    api 'androidx.arch.core:core-common:2.1.0-rc01'
     //customDep
-    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
-    implementation 'androidx.cardview:cardview:1.0.0-beta01'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0-beta01'
-    implementation 'com.squareup.picasso:picasso:2.71828'
-    implementation 'com.cepheuen.elegant-number-button:lib:1.0.2'
-    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    api 'com.rengwuxian.materialedittext:library:2.1.4'
+    api 'androidx.cardview:cardview:1.0.0'
+    api 'androidx.recyclerview:recyclerview:1.0.0-beta01'
+    api 'com.squareup.picasso:picasso:2.71828'
+    api 'com.cepheuen.elegant-number-button:lib:1.0.2'
+    api 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
     //noinspection GradleDynamicVersion
-    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
-    implementation 'com.github.mancj:MaterialSearchBar:0.8.2'
-    implementation 'com.jaredrummler:material-spinner:1.3.0'
-    implementation 'com.akexorcist:googledirectionlibrary:1.1.1'
-    implementation 'com.github.rey5137:material:1.2.5'
-    implementation 'io.paperdb:paperdb:2.6'
-    implementation 'com.stepstone.apprating:app-rating:2.3.0'
-    implementation 'com.github.andremion:counterfab:1.0.1'
+    api 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+    api 'com.github.mancj:MaterialSearchBar:0.8.2'
+    api 'com.jaredrummler:material-spinner:1.3.0'
+    api 'com.akexorcist:googledirectionlibrary:1.1.1'
+    api 'com.github.rey5137:material:1.2.5'
+    api 'io.paperdb:paperdb:2.6'
+    api 'com.stepstone.apprating:app-rating:2.3.0'
+    api 'com.github.andremion:counterfab:1.0.1'
 
 
 }

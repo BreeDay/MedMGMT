@@ -3,11 +3,13 @@ package com.example.bdaymedmgmt.med_order;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import androidx.core.widget.SwipeRefreshLayout;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.LinearLayoutManager;
-import androidx.appcompat.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -107,7 +109,7 @@ public class FoodActivity extends AppCompatActivity {
 
         recyclerViewFood = findViewById(R.id.recycler_food);
         recyclerViewFood.setHasFixedSize(true);
-        recyclerViewFood.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        recyclerViewFood.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL, false));
 
         loadFoods();
         loadSuggestion();

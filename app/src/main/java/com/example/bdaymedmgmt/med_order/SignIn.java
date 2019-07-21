@@ -2,14 +2,14 @@ package com.example.bdaymedmgmt.med_order;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import com.example.bdaymedmgmt.med_order.Common.Common;
 import com.example.bdaymedmgmt.med_order.Model.User;
 import com.google.firebase.database.DataSnapshot;
