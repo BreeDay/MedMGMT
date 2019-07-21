@@ -9,23 +9,26 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
         android:orientation="vertical"
-        android:layout_centerInParent="true"
         tools:ignore="UseCompoundDrawables">
 
         <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/logo_eat_it"
+            android:layout_width="339dp"
+            android:layout_height="427dp"
+            android:src="@drawable/medical"
             tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/txtSlogan"
-            android:layout_gravity="center"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:textColor="#fff"
-            android:text="@string/sloganServer"/>
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_alignBottom="@+id/null"
+            android:text="@string/sloganServer"
+            android:textAlignment="center"
+            android:textColor="#fff" />
     </LinearLayout>
 
     <LinearLayout
